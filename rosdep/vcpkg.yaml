@@ -1,3 +1,16 @@
+# <python-package-name>:
+#     windows:
+#       pip:
+#         packages: [<python-package-name-in-pip>]
+
+# <linux--package-name>:
+#   windows:
+#     vcpkg:
+#       packages: [<vcpkg-name>]
+libmuparser-dev:
+  windows:
+    vcpkg:
+      packages: [libmuparser]
 ftdi-eeprom:
   windows: []
 libusb-dev:
@@ -40,3 +53,4 @@ graphicsmagick:
   windows:
     vcpkg:
       packages: [graphicsmagick]
+
