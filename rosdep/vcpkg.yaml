@@ -10,7 +10,7 @@
 libmuparser-dev:
   windows:
     vcpkg:
-      packages: [libmuparser]
+      packages: [muparser]
 ftdi-eeprom:
   windows: []
 libusb-dev:
